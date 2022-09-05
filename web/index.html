@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spin4Win</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="title">spin 4 win</h1>
+    <fieldset id="top-panel">
+      <legend>Draw Type</legend>
+      <li>1 Winning Number</li>
+      <li>2 Winning Number</li>
+      <li>3 Winning Number</li>
+      <li>4 Winning Number</li>
+    </fieldset>
+
+    <div id="mid-panel">
+      <fieldset id="left-panel">
+        <legend>Numbers</legend>
+        <div class="num-input">
+          <label for="num1-field"> 1st Number </label>
+          <input type="text" size="4" id="num1-field" />
+        </div>
+        <div class="num-input">
+          <label for="num2-field"> 2nd Number </label>
+          <input type="text" size="4" id="num2-field" />
+        </div>
+
+        <div class="num-input">
+          <label for="num3-field"> 3rd Number </label>
+          <input type="text" size="4" id="num3-field" />
+        </div>
+
+        <div class="num-input">
+          <label for="num4-field"> 4th Number </label>
+          <input type="text" size="4" id="num4-field" />
+        </div>
+      </fieldset>
+
+      <div id="right-panel">
+        <div class="pair">
+          <div class="num-menu">
+            <h4>1st Winning Number</h4>
+            <div class="menu-panel">
+              <div class="menu">
+                <label for="time1">Time1</label>
+                <input type="range" id="num1-time1" min="2" max="10" step="1" />
+                <label for="time2">Time2</label>
+                <input type="range" id="num1-time2" min="2" max="10" step="1" />
+                <label for="time3">Time3</label>
+                <input type="range" id="num1-time3" min="2" max="10" step="1" />
+                <label for="time4">Time4</label>
+                <input type="range" id="num1-time4" min="2" max="10" step="1" />
+              </div>
+
+              <div class="menu">
+                <label for="speed1">Speed1</label>
+                <input type="range" id="num1-speed1" />
+
+                <label for="speed1">Speed2</label>
+                <input type="range" id="num1-speed2" />
+
+                <label for="speed3">Speed3</label>
+                <input type="range" id="num1-speed3" />
+
+                <label for="speed4">Speed4</label>
+                <input type="range" id="num1-speed4" />
+              </div>
+            </div>
+          </div>
+
+          <div class="num-menu">
+            <h4>2nd Winning Number</h4>
+            <div class="menu-panel">
+              <div class="menu">
+                <label for="time1">Time1</label>
+                <input type="range" id="num2-time1" min="2" max="10" step="1" />
+                <label for="time2">Time2</label>
+                <input type="range" id="num2-time2" min="2" max="10" step="1" />
+                <label for="time3">Time3</label>
+                <input type="range" id="num2-time3" min="2" max="10" step="1" />
+                <label for="time4">Time4</label>
+                <input type="range" id="num2-time4" min="2" max="10" step="1" />
+              </div>
+
+              <div class="menu">
+                <label for="speed1">Speed1</label>
+                <input type="range" id="num2-speed1" />
+
+                <label for="speed1">Speed2</label>
+                <input type="range" id="num2-speed2" />
+
+                <label for="speed3">Speed3</label>
+                <input type="range" id="num2-speed3" />
+
+                <label for="speed4">Speed4</label>
+                <input type="range" id="num2-speed4" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pair">
+          <div class="num-menu">
+            <h4>3rd Winning Number</h4>
+            <div class="menu-panel">
+              <div class="menu">
+                <label for="time1">Time1</label>
+                <input type="range" id="num3-time1" min="2" max="10" step="1" />
+                <label for="time2">Time2</label>
+                <input type="range" id="num3-time2" min="2" max="10" step="1" />
+                <label for="time3">Time3</label>
+                <input type="range" id="num3-time3" min="2" max="10" step="1" />
+                <label for="time4">Time4</label>
+                <input type="range" id="num3-time4" min="2" max="10" step="1" />
+              </div>
+
+              <div class="menu">
+                <label for="speed1">Speed1</label>
+                <input type="range" id="num3-speed1" />
+
+                <label for="speed1">Speed2</label>
+                <input type="range" id="num3-speed2" />
+
+                <label for="speed3">Speed3</label>
+                <input type="range" id="num3-speed3" />
+
+                <label for="speed4">Speed4</label>
+                <input type="range" id="num3-speed4" />
+              </div>
+            </div>
+          </div>
+
+          <div class="num-menu">
+            <h4>4th Winning Number</h4>
+            <div class="menu-panel">
+              <div class="menu">
+                <label for="time1">Time1</label>
+                <input type="range" id="num4-time1" min="2" max="10" step="1" />
+                <label for="time2">Time2</label>
+                <input type="range" id="num4-time2" min="2" max="10" step="1" />
+                <label for="time3">Time3</label>
+                <input type="range" id="num4-time3" min="2" max="10" step="1" />
+                <label for="time4">Time4</label>
+                <input type="range" id="num4-time4" min="2" max="10" step="1" />
+              </div>
+
+              <div class="menu">
+                <label for="speed1">Speed1</label>
+                <input type="range" id="num4-speed1" />
+
+                <label for="speed1">Speed2</label>
+                <input type="range" id="num4-speed2" />
+
+                <label for="speed3">Speed3</label>
+                <input type="range" id="num4-speed3" />
+
+                <label for="speed4">Speed4</label>
+                <input type="range" id="num4-speed4" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <fieldset id="bottom-panel">
+      <legend>Output</legend>
+
+      <div class="bottom-menu1">
+        <label for="narration-dropdown">Narration Voice: </label>
+        <select name="Narration Voice" id="narration-dropdown">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div>
+
+      <div class="bottom-menu1">
+        <label for="resolution-dropdown">Output Resolution: </label>
+        <select name="Output Resolution" id="resolution-dropdown">
+          <option value="default">Default</option>
+          <option value="default2">Default2</option>
+        </select>
+      </div>
+
+      <div class="bottom-menu2">
+        <label for="output-file-chooser">Output Video File: </label>
+        <div>
+          <input type="text" size="21" />
+          <button id="output-file-chooser">Browse</button>
+        </div>
+      </div>
+
+      <div class="bottom-menu2">
+        <label for="status-area">Status</label>
+        <textarea
+          name="status"
+          id="status-area"
+          cols="30"
+          rows="5"
+          style="resize: none"
+        ></textarea>
+      </div>
+    </fieldset>
+    <div style="width: 500px; display: flex; justify-content: center">
+      <button id="generate-button" onclick="generate()">Generate</button>
+    </div>
+    <script src="index.js"></script>
+    <script type="text/javascript" src="/eel.js"></script>
+  </body>
+</html>
