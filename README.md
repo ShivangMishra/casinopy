@@ -1,2 +1,2 @@
 # casinopy
- A casino roulettes animation automation script
+ A casino roulettes physics based animation automation script
